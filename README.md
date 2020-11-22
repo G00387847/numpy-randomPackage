@@ -64,5 +64,24 @@ x
 plt.hist(x)
 
 
+## Choice
+
+*****
+
+The choice documentation show what random function does and how to discover how the function works, using documentation examples and visualising it with histogram plot.
+
+My Investigate will be to generate a random sample from a given 1-D array
+
+To generate a uniform random sample from np.arange(5) of size 3:
+
+import numpy as np
+
+rng = np.random.default_rng()
+
+rng.choice(5, 3)
+
+# This is equivalent to rng.integers(0,5,3)
+
+
 
  
