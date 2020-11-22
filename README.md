@@ -52,10 +52,13 @@ I will investigate Return random integers from low (inclusive) to high (exclusiv
 Return random integers from the “discrete uniform” distribution of the specified dtype. If high is None (the default), then results are from 0 to low.
 
 import matplotlib.pyplot as plt
+
 import numpy as np
 
 rng = np.random.default_rng()
+
 x = rng.integers(2, size=10)
+
 x
 
 plt.hist(x)
