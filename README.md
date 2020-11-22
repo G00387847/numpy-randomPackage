@@ -55,6 +55,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 rng = np.random.default_rng()
+x = rng.integers(2, size=10)
+x
+
+plt.hist(x)
 
 
 
