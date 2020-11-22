@@ -1,3 +1,5 @@
+![Logos](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/jupyter_python_numpy.width-808.png)
+
 # numpy-randomPackage
 
 ## Investigating and Explanation of numpy.random package
