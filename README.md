@@ -51,17 +51,17 @@ This demonstration show what intergar function does and to discover how the func
 I will investigate Return random integers from low (inclusive) to high (exclusive), or if endpoint=True, low (inclusive) to high (inclusive). Replaces RandomState.randint (with endpoint=False) and RandomState.random_integers (with endpoint=True)
 Return random integers from the “discrete uniform” distribution of the specified dtype. If high is None (the default), then results are from 0 to low.
 
-import matplotlib.pyplot as plt
+- import matplotlib.pyplot as plt
 
-import numpy as np
+- import numpy as np
 
-rng = np.random.default_rng()
+- rng = np.random.default_rng()
 
-x = rng.integers(2, size=10)
+- x = rng.integers(2, size=10)
 
-x
+- x
 
-plt.hist(x)
+- plt.hist(x)
 
 
 ## Choice
@@ -74,13 +74,13 @@ My Investigate will be to generate a random sample from a given 1-D array
 
 To generate a uniform random sample from np.arange(5) of size 3:
 
-import numpy as np
+- import numpy as np
 
-rng = np.random.default_rng()
+- rng = np.random.default_rng()
 
-rng.choice(5, 3)
+- rng.choice(5, 3)
 
-# This is equivalent to rng.integers(0,5,3)
+This is equivalent to rng.integers(0,5,3)
 
 
 
