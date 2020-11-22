@@ -63,6 +63,28 @@ Return random integers from the “discrete uniform” distribution of the speci
 
 - plt.hist(x)
 
+### Random 
+
+****
+
+The documentation below show what random function does and to discover how the function work, using documentation examples and visualising it with histogram plot.
+
+I will investigate Return random floats in the half-open interval [0.0, 1.0).
+
+Results are from the “continuous uniform” distribution over the stated interval. To sample Unif[a, b), b > a multiply the output of random by (b-a) and add a:
+
+## Using histogram plot to visualized the function
+
+- import numpy as np
+
+- import matplotlib.pyplot as plt
+
+- rng = np.random.default_rng()
+- x = rng.random((10000000,))
+- x
+
+plt.hist(x)
+
 
 ## Choice
 
