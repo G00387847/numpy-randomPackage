@@ -26,4 +26,36 @@ It is also a Python Package, specialized for building and manipulating large, mu
 Numpy.random number is a routine produce pseudo random numbers, using combinations of a BitGenerator to create sequences and a Generator to use those sequences to sample from different statistical distributions:
 Numpy.randon package is use to generate simulated data.
 Source: [NumPy.Random](https://numpy.org/doc/stable/reference/random/index.html#)
+
+# Simple random data
+******
+
+## The use and purpose of the simple random data
+
+******
+
+We have four functions of simple random data:
+
+- Intergars
+
+- Random 
+
+- Choice
+
+- Byte
+
+## integers 
+
+This demonstration show what intergar function does and to discover how the function work and I will use documentation examples to discover how the function work, also to visualised it using histogram plot.
+
+I will investigate Return random integers from low (inclusive) to high (exclusive), or if endpoint=True, low (inclusive) to high (inclusive). Replaces RandomState.randint (with endpoint=False) and RandomState.random_integers (with endpoint=True)
+Return random integers from the “discrete uniform” distribution of the specified dtype. If high is None (the default), then results are from 0 to low.
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+rng = np.random.default_rng()
+
+
+
  
