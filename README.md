@@ -104,6 +104,28 @@ To generate a uniform random sample from np.arange(5) of size 3:
 
 This is equivalent to rng.integers(0,5,3)
 
+## Bytes
+
+The documentation code shows what the random function does and how to discover how the function works, using documentation example My investigation will base on return random bytes.
+
+- np.random.default_rng().bytes(10)
+
+ The more you press shitf + enter, the output changes
+ 
+ ## Permutation
+ 
+  Randomly permute  or return a permuted range. If x is a multi-dimensional array, it is only shuffle along its first index.
+  
+ -  rng = np.random.default_rng()
+
+- arr = np.arange(100)
+
+- rng.shuffle(arr)
+
+
+p(x) = x^{k-1}\frac{e^{-x/\theta}}{\theta^k\Gamma(k)},
+
+
 
 
  
