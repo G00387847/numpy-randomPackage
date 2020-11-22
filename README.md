@@ -51,6 +51,7 @@ This demonstration show what intergar function does and to discover how the func
 I will investigate Return random integers from low (inclusive) to high (exclusive), or if endpoint=True, low (inclusive) to high (inclusive). Replaces RandomState.randint (with endpoint=False) and RandomState.random_integers (with endpoint=True)
 Return random integers from the “discrete uniform” distribution of the specified dtype. If high is None (the default), then results are from 0 to low.
 
+
 - import matplotlib.pyplot as plt
 
 - import numpy as np
@@ -187,11 +188,12 @@ Generator exposes a number of methods for generating random numbers drawn from a
 
 The Python stdlib module random contains pseudo-random number generator with a number of methods that are similar to the ones available in Generator. It uses Mersenne Twister, and this bit generator can be accessed using MT19937. Generator, besides being NumPy-aware, has the advantage that it provides a much larger number of probability distributions to choose from.
 
-# Example
+### code
 
 - from numpy.random import Generator, PCG64
 - rg = Generator(PCG64())
 - rg.standard_normal()
+
 
 # References:
 
